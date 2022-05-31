@@ -8,7 +8,7 @@ class CartItem(object):
         self.count = count
 
     def __str__(self):
-        #  f decimal type
+        #   decimal type
         return '%s(￥%.2f)*%s' % (self.goods.name,
                                  self.goods.price, self.count)
 

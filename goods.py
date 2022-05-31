@@ -1,17 +1,17 @@
-# Товар
+# goods
 class Goods(object):
     def __init__(self, name, price, stock):
         self.id = 0
         self.name = name
         self.price = price
         self.stock = stock
-        # При печати объектов выводится содержимое
+        # content output
 
     def __str__(self):
         return 'id:s\n' \
-               'Имя: s \ n' \
-               'Цена: s \ n' \
-               'Инвентарь: s \ n' % (self.id, self.name, self.price,
+               'name: s \ n' \
+               'price: s \ n' \
+               'id: s \ n' % (self.id, self.name, self.price,
                                       self.stock)
 
 
