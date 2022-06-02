@@ -1,5 +1,5 @@
-from goods import Goods
 from cart import CartItem
+from goods import Goods
 
 
 class Shop(object):
@@ -132,4 +132,3 @@ def list(self):
 
         shop = Shop()
         shop.run()
-
